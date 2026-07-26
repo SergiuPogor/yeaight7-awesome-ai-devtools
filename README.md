@@ -30,6 +30,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 - [Aider](https://aider.chat/) - Open-source terminal pair programmer that edits tracked files in a local Git repository.
 - [Cline](https://docs.cline.bot/introduction/overview) - Open-source coding agent for editor workflows with file edits, terminal commands, browser use, and MCP-based tool extension.
+- [cursor-bridge](https://github.com/hkc5/cursor-bridge) - Claude Code that runs on your Cursor subscription.
 - [OpenCode](https://opencode.ai/) - Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows.
 - [OpenHands](https://openhands.dev/) - Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options.
 - [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
