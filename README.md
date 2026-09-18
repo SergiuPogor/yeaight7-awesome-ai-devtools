@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>370 tools</code> <code>286 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>371 tools</code> <code>287 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (45) · [Agent evals](#agent-evals) (23)
+[Agent observability](#agent-observability) (45) · [Agent evals](#agent-evals) (24)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 286 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 287 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -449,6 +449,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [Unitxt](https://www.unitxt.ai) | IBM-backed library and catalog for textual data preparation and evaluation of generative language models across many tasks. | CLI · Framework · Library | [Website](https://www.unitxt.ai) / [Docs](https://www.unitxt.ai/en/main/docs/introduction.html) / [Repo](https://github.com/ibm/unitxt) |
 | [Vectara Open Evaluation UI](https://www.vectara.com/blog/open-evaluation) | Web UI for loading reports from Open RAG Eval and comparing RAG configurations across queries and metrics. | Framework · Web | [Website](https://www.vectara.com/blog/open-evaluation) / [Docs](https://docs.vectara.com/docs/hallucination-and-evaluation/open-eval-framework) |
 | [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) | CLI that diffs an AI agent's behavior between two runs, comparing tool calls, args, cost, latency, and outcome flips. | CLI · Local | [Repo](https://github.com/arthi-arumugam-git/whatbroke) |
+| [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) | Two deliberately separate evaluation lanes — task prompts and Workflow Runner YAML in private fresh-repository attempt workspaces with blinded per-step judging. | CLI · Local | [Docs](https://github.com/yylo-dev/yylo-benchmark#readme) / [Repo](https://github.com/yylo-dev/yylo-benchmark) |
 
 ### Self-hosted AI dev stacks
 
@@ -639,6 +640,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-18: [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)
 - 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
 - 2026-09-05: [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch)
 - 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
@@ -646,7 +648,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
 - 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
 - 2026-08-13: [Atomic Agent](https://atomicagent.io)
-- 2026-07-27: [cursor-bridge](https://github.com/hkc5/cursor-bridge)
 
 ## Needs review
 

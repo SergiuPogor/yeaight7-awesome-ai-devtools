@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 286 reviewed tools.
+This is the complete comparison matrix for all 287 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -290,6 +290,7 @@ This is the complete comparison matrix for all 286 reviewed tools.
 | [write-the](https://github.com/Wytamma/write-the) | Documentation agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/Wytamma/write-the#readme) / [Repo](https://github.com/Wytamma/write-the) |
 | [wshobson/agents](https://github.com/wshobson/agents) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/wshobson/agents) |
 | [YYLO](https://github.com/yylo-dev/yylo) | Terminal agents | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/yylo-dev/yylo#readme) / [Repo](https://github.com/yylo-dev/yylo) |
+| [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) | Agent evals | Yes | Yes | No | Yes | No | No | [Docs](https://github.com/yylo-dev/yylo-benchmark#readme) / [Repo](https://github.com/yylo-dev/yylo-benchmark) |
 | [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
 | [Zenity AI Observability Platform](https://zenity.io/platform/ai-observability) | Agent observability | No | No | No | No | No | No | [Website](https://zenity.io/platform/ai-observability) |
 
