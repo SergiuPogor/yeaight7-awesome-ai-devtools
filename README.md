@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>371 tools</code> <code>287 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>372 tools</code> <code>288 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -19,7 +19,6 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 ## Start here
 
 ### Agent skills and plugins
-- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — drop-in recorder that sits between your agent and the model provider.
 
 - [Agent Powerups](https://github.com/yeaight7/agent-powerups) - Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Agent harness performance system with skills, hooks, MCP configs, memory optimization, and cross-harness workflows.
@@ -79,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (45) · [Agent evals](#agent-evals) (24)
+[Agent observability](#agent-observability) (46) · [Agent evals](#agent-evals) (24)
 
 ### Run locally/self-host
 
@@ -91,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 287 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 288 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -138,13 +137,13 @@ _Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) fo
 | [MCP Bundles (MCPB)](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) | MCP servers | Yes | Yes | No | Yes | No | Yes | [Docs](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) / [Repo](https://github.com/modelcontextprotocol/mcpb) |
 | [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://modelcontextprotocol.io/docs/tools/inspector) / [Repo](https://github.com/modelcontextprotocol/inspector) |
 | [mcp-cli (wong2)](https://www.npmjs.com/package/@wong2/mcp-cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://www.npmjs.com/package/@wong2/mcp-cli) / [Repo](https://github.com/wong2/mcp-cli) |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Continuum-AI-Corp/OrcaReplay) |
 | [Redis + Ollama RAG Stack](https://github.com/TtheBC01/redis-ollama-RAG#readme) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://github.com/TtheBC01/redis-ollama-RAG#readme) / [Repo](https://github.com/TtheBC01/redis-ollama-RAG) |
 | [Ruflo](https://github.com/ruvnet/ruflo) | Coding agents | Yes | No | Yes | Yes | No | Yes | [Docs](https://github.com/ruvnet/ruflo#readme) / [Repo](https://github.com/ruvnet/ruflo) |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
 | [Self-hosted AI Starter Kit (n8n)](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Docs](https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/) / [Repo](https://github.com/n8n-io/self-hosted-ai-starter-kit) |
 | [Smithery CLI](https://smithery.ai) | MCP tooling | Yes | Yes | No | Yes | No | Yes | [Website](https://smithery.ai) / [Docs](https://smithery.ai/docs/concepts/cli) / [Repo](https://github.com/smithery-ai/cli) |
 | [Zed](https://zed.dev/) | IDE assistants | Yes | Yes | No | No | Yes | Yes | [Website](https://zed.dev/) / [Docs](https://zed.dev/releases/stable/0.233.5) / [Repo](https://github.com/zed-industries/zed) |
-| [Nosia](https://nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://nosia.ai) / [Docs](https://nosia.ai/readme/) |
 
 <p align="center"><img src="assets/awesome-ai-devtools-social-preview.gif" alt="Awesome AI Devtools ecosystem map" width="100%"></p>
 
@@ -414,6 +413,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [openllmetry](https://traceloop.com) | Open-source observability stack for LLM apps and agents built on OpenTelemetry, with collectors and dashboards for traces and metrics. | API · Web · Local | [Website](https://traceloop.com) / [Docs](https://docs.traceloop.com) / [Repo](https://github.com/traceloop/openllmetry) |
 | [OpenObserve LLM Observability](https://openobserve.ai) | Open-source observability platform that unifies infrastructure and LLM observability with logs, metrics, and traces. | API · Web · Hybrid | [Website](https://openobserve.ai) / [Docs](https://openobserve.ai/docs) / [Repo](https://github.com/openobserve/openobserve) |
 | [OpenSearch GenAI Observability SDK](https://opensearch.org) | OpenTelemetry-native Python SDK for one-line LLM observability using OpenSearch and Data Prepper as backend. | Library · Local | [Website](https://opensearch.org) / [Docs](https://github.com/opensearch-project/genai-observability-sdk-py#readme) / [Repo](https://github.com/opensearch-project/genai-observability-sdk-py) |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records the prompts, tool calls, responses, and raw bytes exchanged between a coding agent and its model provider, then replays the run offline. | CLI · MCP · Local | [Repo](https://github.com/Continuum-AI-Corp/OrcaReplay) |
 | [PostHog LLM Analytics](https://posthog.com) | LLM observability product in PostHog that captures traces, spans, and sessions for AI-powered applications. | API · Web · Hosted | [Website](https://posthog.com) / [Docs](https://posthog.com/docs/ai-engineering/llm-analytics) / [Repo](https://github.com/PostHog/posthog) |
 | [Respan](https://respan.ai) | LLM engineering platform that unifies observability, evals, prompt optimization, and gateway for AI applications. | API · Web · Hosted | [Website](https://respan.ai) |
 | [TruLens](https://www.trulens.org) | Open-source library for tracing and evaluating AI agents, RAG systems, and LLM applications with feedback functions. | Web · Local | [Website](https://www.trulens.org) / [Docs](https://www.trulens.org/docs) / [Repo](https://github.com/truera/trulens) |
@@ -641,6 +641,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
 - 2026-09-18: [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)
 - 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
 - 2026-09-05: [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch)
@@ -648,7 +649,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 - 2026-08-17: [Kolega Code](https://github.com/kolega-ai/kolega-code)
 - 2026-08-16: [Agent QA](https://vostride.com/docs/agent-qa)
-- 2026-08-13: [Atomic Agent](https://atomicagent.io)
 
 ## Needs review
 
