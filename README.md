@@ -19,6 +19,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 ## Start here
 
 ### Agent skills and plugins
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — drop-in recorder that sits between your agent and the model provider.
 
 - [Agent Powerups](https://github.com/yeaight7/agent-powerups) - Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Agent harness performance system with skills, hooks, MCP configs, memory optimization, and cross-harness workflows.
