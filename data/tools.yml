@@ -7571,6 +7571,31 @@
   sources:
     - https://arxiv.org/html/2401.13919v4
     - https://github.com/THUDM/OpenWebAgent
+- slug: orcareplay
+  name: OrcaReplay
+  description: Records the prompts, tool calls, responses, and raw bytes exchanged between a coding agent and its model provider, then replays the run offline.
+  website_url: https://github.com/Continuum-AI-Corp/OrcaReplay
+  repo_url: https://github.com/Continuum-AI-Corp/OrcaReplay
+  categories:
+    - agent-observability
+  tags:
+    - cli
+    - debugging
+    - observability
+    - offline
+    - tracing
+  interfaces:
+    - cli
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-09-20
+  last_checked: 2026-09-20
+  sources:
+    - https://github.com/Continuum-AI-Corp/OrcaReplay
+    - https://www.npmjs.com/package/orcareplay
 - slug: paddler
   name: Paddler
   description: Open-source LLMOps platform for hosting and scaling AI models in your own infrastructure.
