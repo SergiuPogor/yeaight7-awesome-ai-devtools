@@ -8915,8 +8915,7 @@
   deployment: self-hosted
   source_model: open-source
   license: MIT
-  curation_status: draft
-  review_notes: "Draft: web UI for Claude Code and Codex CLIs, peer to Garcon and superset."
+  curation_status: reviewed
   added: 2026-09-21
   last_checked: 2026-09-21
   sources:
