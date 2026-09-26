@@ -2330,6 +2330,33 @@
     - https://coderabbit.ai/
     - https://coderabbit.ai/cli
     - https://docs.coderabbit.ai/
+- slug: codex-quota-overlay
+  name: Codex Quota Overlay
+  description: Windows desktop companion for Codex that displays quota limits, reset countdowns, and a local usage dashboard.
+  website_url: https://github.com/cpys/codex-quota-overlay
+  repo_url: https://github.com/cpys/codex-quota-overlay
+  categories:
+    - agent-observability
+  tags:
+    - agents
+    - desktop-app
+    - local-first
+    - monitoring
+    - observability
+    - open-source
+  interfaces:
+    - desktop
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  review_notes: Maintainer-disclosed submission. Metadata checked against the official repository and v0.4.0 release; no independent runtime retest in this submission. Adjacent quota functionality overlaps with Agent Island; this entry is limited to the Codex Desktop title-adjacent overlay and local quota center.
+  added: 2026-09-26
+  last_checked: 2026-09-26
+  sources:
+    - https://github.com/cpys/codex-quota-overlay
+    - https://github.com/cpys/codex-quota-overlay/blob/main/LICENSE
+    - https://github.com/cpys/codex-quota-overlay/releases/tag/v0.4.0
 - slug: codex-profile
   name: codex-profiles
   description: Bash CLI that launches Codex CLI or Desktop with isolated CODEX_HOME profiles for account and context switching.
