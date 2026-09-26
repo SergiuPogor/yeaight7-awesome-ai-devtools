@@ -9618,6 +9618,34 @@
     - https://github.com/oobabooga/text-generation-webui
     - https://github.com/oobabooga/text-generation-webui#readme
     - https://github.com/ymcui/Chinese-LLaMA-Alpaca-3/wiki/text-generation-webui_en
+- slug: tokenade
+  name: Tokenade
+  description: Freemium CLI that compacts and deduplicates tool output, file reads, and MCP responses before coding agents send them to the model.
+  website_url: https://tokenade.net/en
+  repo_url: https://github.com/pi-infected/tokenade-npm
+  docs_url: https://github.com/pi-infected/tokenade-npm#readme
+  categories:
+    - mcp-tooling
+    - terminal-agents
+  primary_category: terminal-agents
+  tags:
+    - agentic-coding
+    - cli
+    - developer-experience
+    - mcp
+    - proxy
+  interfaces:
+    - cli
+  deployment: local
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-09-26
+  last_checked: 2026-09-26
+  sources:
+    - https://github.com/pi-infected/tokenade-npm
+    - https://tokenade.net/en
+    - https://www.npmjs.com/package/@tokenade/cli
 - slug: tree-ring-memory
   name: Tree Ring Memory
   description: Local-first Rust CLI/TUI for agent memory lifecycle with SQLite/FTS recall, audit, forgetting, and source-linked evidence.
