@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 290 reviewed tools.
+This is the complete comparison matrix for all 291 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -71,6 +71,7 @@ This is the complete comparison matrix for all 290 reviewed tools.
 | [Cline](https://docs.cline.bot/introduction/overview) | Coding agents | Yes | No | No | Yes | Yes | Yes | [Docs](https://docs.cline.bot/introduction/overview) / [Repo](https://github.com/cline/cline) |
 | [Code2Docs](https://github.com/code2docs-ai) | Documentation agents | Yes | No | No | Yes | No | No | [Docs](https://github.com/code2docs-ai) / [Repo](https://github.com/xKarinSan/Code2Docs) |
 | [CodeRabbit](https://coderabbit.ai/) | AI code review tools | No | No | No | Yes | Yes | No | [Website](https://coderabbit.ai/) / [Docs](https://docs.coderabbit.ai/) |
+| [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) | Agent observability | Yes | Yes | No | No | No | No | [Repo](https://github.com/cpys/codex-quota-overlay) |
 | [codex-profiles](https://ducksss.github.io/codex-profiles/) | Terminal agents | Yes | Yes | No | Yes | No | No | [Website](https://ducksss.github.io/codex-profiles/) / [Docs](https://github.com/Ducksss/codex-profiles#readme) / [Repo](https://github.com/Ducksss/codex-profiles) |
 | [Comet Opik](https://www.comet.com) | Agent observability | Yes | No | No | No | No | No | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
 | [Confident AI](https://www.confident-ai.com) | Agent observability | No | No | No | No | No | No | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |

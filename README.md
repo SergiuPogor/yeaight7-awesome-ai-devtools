@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>374 tools</code> <code>290 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>375 tools</code> <code>291 reviewed</code> <code>84 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -78,7 +78,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Operate agents
 
-[Agent observability](#agent-observability) (46) · [Agent evals](#agent-evals) (24)
+[Agent observability](#agent-observability) (47) · [Agent evals](#agent-evals) (24)
 
 ### Run locally/self-host
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 290 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 291 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -385,6 +385,7 @@ Tools for tracing, monitoring, and debugging agent or LLM application behavior.
 | [Arize Phoenix](https://arize.com/phoenix) | Open-source AI observability platform with tracing, evals, datasets, and experiments for LLM, agent, and RAG systems. | API · Web · Self-hosted | [Website](https://arize.com/phoenix) / [Docs](https://arize.com/docs/phoenix) / [Repo](https://github.com/arize-ai/phoenix) |
 | [ax](https://github.com/Necmttn/ax) | Local telemetry and recall graph for AI coding agents, with CLI, dashboard, MCP queries, and OTLP ingestion. | CLI · MCP · Web · Local | [Repo](https://github.com/Necmttn/ax) |
 | [Braintrust](https://www.braintrust.dev) | AI observability and evaluation platform that logs LLM and agent traces and turns production logs into test datasets. | API · Web · Hosted | [Website](https://www.braintrust.dev) / [Docs](https://docs.braintrust.dev) |
+| [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) | Windows desktop companion for Codex that displays quota limits, reset countdowns, and a local usage dashboard. | Desktop · Local | [Repo](https://github.com/cpys/codex-quota-overlay) |
 | [Comet Opik](https://www.comet.com) | Open-source LLM observability framework for tracing, evaluating, and monitoring LLM, RAG, and agent workflows. | API · Web · Hybrid | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
 | [Confident AI](https://www.confident-ai.com) | Evaluation and observability platform that traces LLM apps and runs DeepEval metrics on components and end-to-end workflows. | API · Web · Hosted | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
 | [Datadog LLM Observability](https://www.datadoghq.com/product/ai/llm-observability/) | Datadog product for tracing, monitoring, and evaluating LLM and agent applications with integrated APM views. | API · Library · Web · Hosted | [Website](https://www.datadoghq.com/product/ai/llm-observability/) / [Docs](https://docs.datadoghq.com/tracing/llm_observability/) / [Repo](https://github.com/DataDog/llm-observability) |
@@ -644,6 +645,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 - 2026-09-22: [molt](https://solvyx.xyz/work/molt)
 - 2026-09-21: [Sillage](https://github.com/MarlBurroW/sillage)
 - 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
@@ -651,7 +653,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
 - 2026-09-05: [Gateway From Scratch](https://github.com/yingsuan-ai/gateway-from-scratch)
 - 2026-09-04: [agent-watch](https://github.com/soul-sol/agent-watch)
-- 2026-08-28: [SandBase CLI](https://github.com/sandbaseai/cli)
 
 ## Needs review
 
