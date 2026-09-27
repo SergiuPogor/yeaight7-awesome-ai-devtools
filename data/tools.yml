@@ -2947,17 +2947,17 @@
   interfaces:
     - mcp
   deployment: hybrid
-  source_model: proprietary
+  source_model: not specified
   license: not specified
   curation_status: draft
-  review_notes: "Draft: community addition; source_model=proprietary."
+  review_notes: "Draft: community addition; source_model=not specified (public MCP wrapper, hosted API implementation unverified)."
   added: 2026-09-26
-  last_checked: 2026-09-26
+  last_checked: 2026-09-27
   sources:
     - https://github.com/cjaime708/mcp-deploycheck
 - slug: deployreview
   name: DeployReview
-  description: "Poe-hosted AI bot. Paste code or a diff for a senior staff engineer review: severity-tagged findings, concrete fixes, and follow-up Q&A. Flags bugs and security risks."
+  description: Poe-hosted AI bot that reviews pasted code or diffs for correctness and security, returning severity-tagged findings, suggested fixes, and follow-up answers.
   website_url: https://poe.com/DeployReview
   categories:
     - ai-code-review-tools
@@ -2972,7 +2972,7 @@
   curation_status: draft
   review_notes: "Draft: community addition; source_model=proprietary."
   added: 2026-09-26
-  last_checked: 2026-09-26
+  last_checked: 2026-09-27
   sources:
     - https://poe.com/DeployReview
 - slug: devbox-ai-dev-stack
@@ -3077,7 +3077,7 @@
     - https://github.com/diffblue/cover-community-edition
 - slug: diffexplainerhq
   name: DiffExplainerHQ
-  description: "Poe-hosted AI bot. Paste a diff and get an on-call engineer's read: what changed, why it matters, the risk, and a commit message. Built for reviewers and leads."
+  description: Poe-hosted AI bot that explains pasted code diffs, including what changed, potential risks, and a suggested commit message.
   website_url: https://poe.com/DiffExplainerHQ
   categories:
     - ai-code-review-tools
@@ -3092,7 +3092,7 @@
   curation_status: draft
   review_notes: "Draft: community addition; source_model=proprietary."
   added: 2026-09-26
-  last_checked: 2026-09-26
+  last_checked: 2026-09-27
   sources:
     - https://poe.com/DiffExplainerHQ
 - slug: dify
@@ -5529,14 +5529,12 @@
     - https://github.com/simonw/llm-llamafile#readme
 - slug: llmauditor
   name: LLMAuditor
-  description: "Poe-hosted AI bot. Paste your llms.txt, llms-full.txt, or robots.txt AI directives and get an expert audit: completeness, syntax, token efficiency, and what you are leaking."
+  description: Poe-hosted AI bot that audits pasted llms.txt, llms-full.txt, and robots.txt AI directives for completeness, syntax, token use, and possible information exposure.
   website_url: https://poe.com/LLMAuditor
   categories:
     - documentation-agents
   tags:
     - llm-apps
-    - prompt-management
-    - prompts
   interfaces:
     - web
   deployment: hosted
@@ -5545,7 +5543,7 @@
   curation_status: draft
   review_notes: "Draft: community addition; source_model=proprietary."
   added: 2026-09-26
-  last_checked: 2026-09-26
+  last_checked: 2026-09-27
   sources:
     - https://poe.com/LLMAuditor
 - slug: lm-studio
