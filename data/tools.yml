@@ -5774,6 +5774,29 @@
     - https://localai.io
     - https://localai.io/docs
     - https://pkg.go.dev/github.com/go-skynet/LocalAI
+- slug: lognorm
+  name: LogNorm
+  description: Hosted MCP server that hands a site's SEO and AI-visibility backlog (audits, fixes, content drafts) to coding agents.
+  website_url: https://lognorm.com
+  repo_url: https://github.com/lognorm/lognorm-mcp
+  docs_url: https://lognorm.com/docs/agents
+  categories:
+    - mcp-servers
+  tags:
+    - api
+    - mcp
+  interfaces:
+    - mcp
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-10-03
+  last_checked: 2026-10-03
+  sources:
+    - https://github.com/lognorm/lognorm-mcp
+    - https://lognorm.com
+    - https://lognorm.com/docs/agents
 - slug: lunary
   name: Lunary
   description: Open-source observability and prompt platform for LLM chatbots with analytics, logs, traces, and evaluations.
