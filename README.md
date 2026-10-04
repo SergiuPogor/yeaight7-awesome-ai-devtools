@@ -33,6 +33,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 - [OpenCode](https://opencode.ai/) - Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows.
 - [OpenHands](https://openhands.dev/) - Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options.
 - [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
+- [Orbi](https://github.com/orbi-build/orbi) - Open-source agent that takes labeled GitHub issues to reviewed pull requests, merges only reviewed work, and cuts tagged releases.
 
 ### Self-hosted AI dev stacks
 
