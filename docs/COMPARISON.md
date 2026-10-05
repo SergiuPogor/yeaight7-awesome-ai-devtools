@@ -75,7 +75,7 @@ This is the complete comparison matrix for all 295 reviewed tools.
 | [codex-profiles](https://ducksss.github.io/codex-profiles/) | Terminal agents | Yes | Yes | No | Yes | No | No | [Website](https://ducksss.github.io/codex-profiles/) / [Docs](https://github.com/Ducksss/codex-profiles#readme) / [Repo](https://github.com/Ducksss/codex-profiles) |
 | [Comet Opik](https://www.comet.com) | Agent observability | Yes | No | No | No | No | No | [Website](https://www.comet.com) / [Docs](https://docs.comet.com/docs/opik-overview) / [Repo](https://github.com/comet-ml/opik) |
 | [Confident AI](https://www.confident-ai.com) | Agent observability | No | No | No | No | No | No | [Website](https://www.confident-ai.com) / [Docs](https://www.confident-ai.com/docs) |
-| [Context Guru](https://github.com/rossoctl/context-guru) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Docs](https://rossoctl.github.io/context-guru/) / [Repo](https://github.com/rossoctl/context-guru) |
+| [Context Guru](https://rossoctl.github.io/context-guru/) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Docs](https://rossoctl.github.io/context-guru/) / [Repo](https://github.com/rossoctl/context-guru) |
 | [Context7 MCP Server](https://context7.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://context7.com) / [Repo](https://github.com/upstash/context7) |
 | [Continue](https://docs.continue.dev/) | IDE assistants | Yes | No | No | Yes | Yes | No | [Docs](https://docs.continue.dev/) / [Repo](https://github.com/continuedev/continue) |
 | [Cursor](https://cursor.com/) | IDE assistants | No | No | No | Yes | Yes | Yes | [Website](https://cursor.com/) / [Docs](https://cursor.com/docs) |
