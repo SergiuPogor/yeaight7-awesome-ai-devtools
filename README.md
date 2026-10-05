@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (27)
+[MCP servers](#mcp-servers) (20) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
@@ -357,6 +357,7 @@ Reusable instruction, workflow, or capability packs for coding agents.
 | [Azure DevOps Skills](https://github.com/microsoft/azure-devops-skills) | Example skills for GitHub Copilot integrating with Azure DevOps via MCP server for work items, iterations, and builds. | MCP · Local | [Repo](https://github.com/microsoft/azure-devops-skills) |
 | [CC DevOps Skills](https://github.com/akin-ozer/cc-devops-skills) | Practical agent skill pack with 31 skills for DevOps work in Claude Code and Codex including generators, validators, and debuggers. | CLI · Local | [Repo](https://github.com/akin-ozer/cc-devops-skills) |
 | [Claude Skills](https://github.com/alirezarezvani/claude-skills) | Repository of 232+ Claude Code skills and agent plugins convertible to 12 AI coding tools including Codex, Cursor, and Windsurf. | CLI · Local | [Repo](https://github.com/alirezarezvani/claude-skills) |
+| [Context Guru](https://rossoctl.github.io/context-guru/) | Local proxy and Claude Code/Codex plugin that trims redundant tool output and keeps prompt caches warm to cut agent token costs. | CLI · Skill Pack · Local | [Docs](https://rossoctl.github.io/context-guru/) / [Repo](https://github.com/rossoctl/context-guru) |
 | [Cursor Rules](https://github.com/survivorforge/cursor-rules) | Curated collection of .cursorrules files for Cursor IDE covering React, Next.js, Python, Node.js, and more frameworks. | Template · Local | [Repo](https://github.com/survivorforge/cursor-rules) |
 | [Cursorrules Collection](https://github.com/nedcodes-ok/cursorrules-collection) | 110+ tested .cursorrules and .mdc rule files for Cursor, Claude Code, Copilot, Windsurf, Gemini CLI, and Codex. | Template · Local | [Repo](https://github.com/nedcodes-ok/cursorrules-collection) |
 | [Custom Modes for Roo Code](https://github.com/jtgsystems/Custom-Modes-Roo-Code) | Collection of 171 specialized AI agent configurations for Roo Code across 9 categories with security-first principles. | Skill Pack · Template · Local | [Repo](https://github.com/jtgsystems/Custom-Modes-Roo-Code) |
@@ -652,6 +653,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 ## New Arrivals
 
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
+- 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
