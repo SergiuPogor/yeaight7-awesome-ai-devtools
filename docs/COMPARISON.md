@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 293 reviewed tools.
+This is the complete comparison matrix for all 294 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -216,6 +216,7 @@ This is the complete comparison matrix for all 293 reviewed tools.
 | [OpenObserve LLM Observability](https://openobserve.ai) | Agent observability | Yes | No | Yes | No | No | No | [Website](https://openobserve.ai) / [Docs](https://openobserve.ai/docs) / [Repo](https://github.com/openobserve/openobserve) |
 | [OpenRAG](https://github.com/langflow-ai/openrag) | Self-hosted AI dev stacks | Yes | No | Yes | No | No | No | [Docs](https://github.com/langflow-ai/openrag#readme) / [Repo](https://github.com/langflow-ai/openrag) |
 | [OpenSearch GenAI Observability SDK](https://opensearch.org) | Agent observability | Yes | Yes | Yes | No | No | No | [Website](https://opensearch.org) / [Docs](https://github.com/opensearch-project/genai-observability-sdk-py#readme) / [Repo](https://github.com/opensearch-project/genai-observability-sdk-py) |
+| [Orbi](https://orbi.build/) | Coding agents | Yes | No | Yes | Yes | No | No | [Website](https://orbi.build/) / [Docs](https://docs.orbi.build/) / [Repo](https://github.com/orbi-build/orbi) |
 | [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Continuum-AI-Corp/OrcaReplay) |
 | [Paddler](https://github.com/intentee/paddler#readme) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/intentee/paddler#readme) / [Repo](https://github.com/intentee/paddler) |
 | [Plandex](https://plandex.ai/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://plandex.ai/) / [Docs](https://docs.plandex.ai/quick-start) / [Repo](https://github.com/plandex-ai/plandex) |
