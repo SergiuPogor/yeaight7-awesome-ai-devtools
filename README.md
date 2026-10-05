@@ -439,7 +439,7 @@ Evaluation frameworks and systems for agents, LLM apps, and developer workflows.
 | [Agentic Security](https://github.com/msoedov/agentic_security) | Open-source vulnerability scanner and red-teaming kit for LLM agents and workflows focused on security evaluation. | CLI · Framework · Library | [Repo](https://github.com/msoedov/agentic_security) |
 | [Async Labs LLM Eval (PHP)](https://github.com/Aysnc-Labs/llm-eval) | PHP package for evaluating LLM outputs to test prompts and validate responses in PHP applications. | Framework · Library | [Repo](https://github.com/Aysnc-Labs/llm-eval) |
 | [AWS Agent Evaluation](https://awslabs.github.io/agent-evaluation/) | Generative AI-powered framework from AWS Labs to test virtual agents via multi-turn conversations and CI-friendly workflows. | CLI · Framework · Library | [Docs](https://awslabs.github.io/agent-evaluation/) / [Repo](https://github.com/awslabs/agent-evaluation) |
-| [cap-evolve](https://github.com/skillberry-ai/cap-evolve) | Optimizes an agent's prompts, tool code, and skills from failed evaluation traces, gated by a held-out significance test. | CLI · Local | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
+| [cap-evolve](https://skillberry-ai.github.io/cap-evolve/) | Optimizes an agent's prompts, tool code, and skills from failed evaluation traces, gated by a held-out significance test. | CLI · Framework · Skill Pack · Local | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
 | [DeepEval](https://deepeval.com) | Python framework for unit testing and benchmarking LLM applications, RAG systems, and agents with research-backed metrics. | CLI · Framework · Library | [Website](https://deepeval.com) / [Repo](https://github.com/confident-ai/deepeval) |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | Open-source LLM red teaming framework for simulating attacks and evaluating safety of LLM systems using DeepEval metrics. | CLI · Framework · Library | [Repo](https://github.com/confident-ai/deepteam) |
 | [Guardrails AI](https://github.com/ShreyaR/guardrails) | Python library for enforcing structured outputs, validations, and safety constraints on LLM and agent responses. | Framework · Library · Local | [Docs](https://www.guardrailsai.com) / [Repo](https://github.com/ShreyaR/guardrails) |
@@ -651,7 +651,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
-- 2026-10-05: [cap-evolve](https://github.com/skillberry-ai/cap-evolve)
+- 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)

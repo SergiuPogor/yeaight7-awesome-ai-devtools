@@ -59,7 +59,7 @@ This is the complete comparison matrix for all 295 reviewed tools.
 | [Browserbase MCP Server](https://browserbase.com) | MCP servers | Yes | No | No | No | No | Yes | [Website](https://browserbase.com) / [Repo](https://github.com/browserbase/mcp-server-browserbase) |
 | [Browserless](https://www.browserless.io) | Browser agents | No | No | No | No | No | Yes | [Website](https://www.browserless.io) / [Docs](https://www.browserless.io/blog/announcing-browserless-mcp-with-ai) |
 | [BrowserPilot](https://github.com/handrew/browserpilot) | Browser agents | Yes | No | No | No | No | No | [Repo](https://github.com/handrew/browserpilot) |
-| [cap-evolve](https://github.com/skillberry-ai/cap-evolve) | Agent evals | Yes | Yes | No | Yes | No | No | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
+| [cap-evolve](https://skillberry-ai.github.io/cap-evolve/) | Agent evals | Yes | Yes | No | Yes | No | No | [Docs](https://skillberry-ai.github.io/cap-evolve/) / [Repo](https://github.com/skillberry-ai/cap-evolve) |
 | [CC DevOps Skills](https://github.com/akin-ozer/cc-devops-skills) | Agent skill packs | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/akin-ozer/cc-devops-skills) |
 | [changelog-generator (jaywcjlove)](https://github.com/jaywcjlove/changelog-generator) | Repo automation tools | Yes | Yes | No | Yes | No | No | [Repo](https://github.com/jaywcjlove/changelog-generator) |
 | [Charlotte MCP Server](https://vibehackers.io/mcp/charlotte) | Browser agents | Yes | No | Yes | No | No | Yes | [Docs](https://vibehackers.io/mcp/charlotte) / [Repo](https://github.com/TickTockBent/charlotte) |

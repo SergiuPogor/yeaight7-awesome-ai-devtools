@@ -1857,18 +1857,22 @@
 - slug: cap-evolve
   name: cap-evolve
   description: Optimizes an agent's prompts, tool code, and skills from failed evaluation traces, gated by a held-out significance test.
-  website_url: https://github.com/skillberry-ai/cap-evolve
+  website_url: https://skillberry-ai.github.io/cap-evolve/
   repo_url: https://github.com/skillberry-ai/cap-evolve
   docs_url: https://skillberry-ai.github.io/cap-evolve/
   categories:
     - agent-evals
   tags:
     - agent-evals
+    - agent-skills
+    - benchmarking
     - evals
     - open-source
-    - testing
+    - python
   interfaces:
     - cli
+    - framework
+    - skill-pack
   deployment: local
   source_model: open-source
   license: Apache-2.0
@@ -1877,6 +1881,7 @@
   last_checked: 2026-10-05
   sources:
     - https://github.com/skillberry-ai/cap-evolve
+    - https://skillberry-ai.github.io/cap-evolve/
 - slug: cc-devops-skills
   name: CC DevOps Skills
   description: Practical agent skill pack with 31 skills for DevOps work in Claude Code and Codex including generators, validators, and debuggers.
