@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>381 tools</code> <code>293 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>382 tools</code> <code>294 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -33,7 +33,6 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 - [OpenCode](https://opencode.ai/) - Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows.
 - [OpenHands](https://openhands.dev/) - Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options.
 - [Continue](https://docs.continue.dev/) - Open-source AI code assistant and CLI for IDE agents, source-controlled checks, and customizable development workflows.
-- [Orbi](https://github.com/orbi-build/orbi) - Open-source agent that takes labeled GitHub issues to reviewed pull requests, merges only reviewed work, and cuts tagged releases.
 
 ### Self-hosted AI dev stacks
 
@@ -71,7 +70,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Build with agents
 
-[Coding agents](#coding-agents) (32) · [Terminal agents](#terminal-agents) (22) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
+[Coding agents](#coding-agents) (33) · [Terminal agents](#terminal-agents) (22) · [IDE assistants](#ide-assistants) (17) · [Browser agents](#browser-agents) (25)
 
 ### Extend agents
 
@@ -87,11 +86,11 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Automate repo work
 
-[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (10) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
+[Repo automation tools](#repo-automation-tools) (28) · [AI code review tools](#ai-code-review-tools) (11) · [Documentation agents](#documentation-agents) (24) · [Test generation agents](#test-generation-agents) (7)
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 293 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 294 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -179,6 +178,7 @@ Agentic tools that can inspect, modify, and reason about source code.
 | [OpenAI Codex CLI](https://github.com/openai/codex) | Local terminal coding agent from OpenAI that can inspect code, edit files, and run commands in a developer workspace. | CLI · Hybrid | [Docs](https://developers.openai.com/codex/cli/) / [Repo](https://github.com/openai/codex) |
 | [OpenCode](https://opencode.ai/) | Open-source AI coding agent for terminal, desktop, IDE, and GitHub repository workflows. | CLI · Desktop · GitHub app · IDE · MCP · Local | [Website](https://opencode.ai/) / [Docs](https://opencode.ai/docs/) / [Repo](https://github.com/anomalyco/opencode) |
 | [OpenHands](https://openhands.dev/) | Open-source software agent platform with GUI, CLI, SDK, and self-hosted or cloud deployment options. | API · CLI · Web · Hybrid | [Website](https://openhands.dev/) / [Docs](https://docs.openhands.dev/overview/quickstart) / [Repo](https://github.com/OpenHands/OpenHands) |
+| [Orbi](https://orbi.build/) | Open-source agent that takes labeled GitHub issues to reviewed pull requests, merges only reviewed work, and cuts tagged releases. | CLI · Web · Hybrid | [Website](https://orbi.build/) / [Docs](https://docs.orbi.build/) / [Repo](https://github.com/orbi-build/orbi) |
 | [Plandex](https://plandex.ai/) | Open-source terminal agent for long-running tasks across large projects and real repositories. | CLI · Local | [Website](https://plandex.ai/) / [Docs](https://docs.plandex.ai/quick-start) / [Repo](https://github.com/plandex-ai/plandex) |
 | [Qwen Code](https://qwen.ai/) | Open-source terminal coding agent optimized for Qwen models and large repository tasks. | CLI · Local | [Website](https://qwen.ai/) / [Repo](https://github.com/QwenLM/qwen-code) |
 | [Refact.ai](https://refact.ai/) | Coding agent for IDEs and enterprises that can automate coding, debugging, testing, and documentation tasks. | IDE · Web · Hybrid | [Website](https://refact.ai/) / [Docs](https://docs.refact.ai/) / [Repo](https://github.com/smallcloudai/refact-vscode) |
@@ -580,6 +580,7 @@ AI-assisted tools for reviewing changes, pull requests, and code quality.
 | [Gemini Code Assist](https://developers.google.com/gemini-code-assist) | Google's coding assistant for IDEs and GitHub with agent mode, PR summaries, and code review. | GitHub app · IDE · Hosted | [Website](https://developers.google.com/gemini-code-assist) / [Docs](https://developers.google.com/gemini-code-assist/docs/overview) |
 | [GitHub Copilot](https://github.com/features/copilot) | GitHub AI coding assistant for IDEs and GitHub workflows, including code suggestions, chat, and pull request support. | GitHub app · IDE · Web · Hosted | [Website](https://github.com/features/copilot) / [Docs](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot) |
 | [Junie](https://www.jetbrains.com/junie/) | JetBrains coding agent for IDEs and terminal that plans, edits, tests, and reviews project changes. | CLI · IDE · Hybrid | [Website](https://www.jetbrains.com/junie/) / [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) / [Repo](https://github.com/JetBrains/junie) |
+| [Orbi](https://orbi.build/) | Open-source agent that takes labeled GitHub issues to reviewed pull requests, merges only reviewed work, and cuts tagged releases. | CLI · Web · Hybrid | [Website](https://orbi.build/) / [Docs](https://docs.orbi.build/) / [Repo](https://github.com/orbi-build/orbi) |
 | [Qodo](https://www.qodo.ai/) | Code review and IDE assistant product focused on reviewing diffs, tests, and repository context. | GitHub app · IDE · Hosted | [Website](https://www.qodo.ai/) / [Docs](https://docs.qodo.ai/) |
 | [Sweep](https://sweep.dev/) | JetBrains-focused coding assistant with agent mode, repo edits, AI code review, and MCP integration. | IDE · Hybrid | [Website](https://sweep.dev/) / [Docs](https://docs.sweep.dev/) / [Repo](https://github.com/sweepai/sweep) |
 
@@ -649,6 +650,7 @@ Directories, curated lists, and registries of AI developer tools and resources.
 
 ## New Arrivals
 
+- 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
 - 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 - 2026-09-26: [Tokenade](https://tokenade.net/en)
@@ -656,7 +658,6 @@ Directories, curated lists, and registries of AI developer tools and resources.
 - 2026-09-21: [Sillage](https://github.com/MarlBurroW/sillage)
 - 2026-09-20: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
 - 2026-09-18: [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)
-- 2026-09-06: [YYLO](https://github.com/yylo-dev/yylo)
 
 ## Needs review
 
