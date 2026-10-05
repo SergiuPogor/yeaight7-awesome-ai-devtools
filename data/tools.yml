@@ -2479,6 +2479,33 @@
     - https://www.confident-ai.com
     - https://www.confident-ai.com/docs
     - https://www.confident-ai.com/docs/getting-started/setup-tracing
+- slug: context-guru
+  name: Context Guru
+  description: Local proxy and Claude Code/Codex plugin that trims redundant tool output and keeps prompt caches warm to cut agent token costs.
+  website_url: https://rossoctl.github.io/context-guru/
+  repo_url: https://github.com/rossoctl/context-guru
+  docs_url: https://rossoctl.github.io/context-guru/
+  categories:
+    - agent-skill-packs
+  tags:
+    - agent-skills
+    - agentic-coding
+    - coding
+    - open-source
+    - plugins
+    - proxy
+  interfaces:
+    - cli
+    - skill-pack
+  deployment: local
+  source_model: open-source
+  license: Apache-2.0
+  curation_status: reviewed
+  added: 2026-10-05
+  last_checked: 2026-10-05
+  sources:
+    - https://github.com/rossoctl/context-guru
+    - https://rossoctl.github.io/context-guru/
 - slug: context7-mcp-server
   name: Context7 MCP Server
   description: MCP server for retrieving up-to-date library documentation and code examples for AI coding assistants.
