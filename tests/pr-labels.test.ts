@@ -236,6 +236,14 @@ test("the label workflow passes a validated manual number to the actual reconcil
   const workflow = YAML.parse(readFileSync(path, "utf8"));
   const script = workflow.jobs.label.steps.find((step: any) => step.with?.script).with.script;
   const fixture = fakeGitHub();
+  // GitHub's shared issue-label endpoint requires PR write access when its
+  // target is a pull request, even if repository label creation is permitted.
+  fixture.github.rest.issues.addLabels = async (args: unknown) => {
+    if (workflow.jobs.label.permissions["pull-requests"] !== "write") {
+      throw Object.assign(new Error("PR labels require pull-requests: write"), { status: 403 });
+    }
+    fixture.calls.push({ operation: "add", args });
+  };
   const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor;
   const execute = new AsyncFunction("github", "context", "core", "process", "require", script);
   const workflowRequire = createRequire(new URL("../package.json", import.meta.url));
