@@ -72,3 +72,30 @@ Reports entries whose `last_checked` is older than the threshold, plus the ten o
 ## Review Policy
 
 Reviewers should check that sources are official, descriptions are factual, uncertain fields are marked conservatively, and entries improve the directory rather than inflating counts.
+
+## Pull Request Automation
+
+Three workflows maintain PR metadata, including contributions from forks:
+
+- **Assign author** adds the human author when a PR opens, including drafts. It preserves other assignees and skips bots, already-assigned authors, and authors GitHub cannot assign.
+- **Request review** requests `yeaight7` on opening, reopening, or becoming ready for review. Drafts and PRs authored by `yeaight7` are skipped. Existing reviewer requests are preserved; pending requests and completed reviews by `yeaight7` prevent repeated requests. Dismissed reviews do not count as completed reviews.
+- **PR labels** reconciles labels on opening, reopening, pushes, edits (including a base-branch change), and becoming ready for review. It also labels drafts.
+
+Area labels are cumulative:
+
+| Label | Changed files |
+| --- | --- |
+| `catalog` | Anything under `data/` |
+| `documentation` | Markdown files, `docs/`, and `assets/`, including generated README and comparison changes |
+| `tooling` | `scripts/`, `tests/`, `package.json`, `package-lock.json`, and `tsconfig.json` |
+| `github-actions` | `.github/workflows/` and `.github/scripts/` |
+
+Category labels use `category:<slug>`. The labeler compares `data/tools.yml` at the PR's merge base with the proposed head and matches records by slug. Added, edited, and removed tools contribute their primary categories; category moves include both the previous and new primary category. A sole category is used when `primary_category` is absent. Multiple categories without a primary category produce a warning without guessing. YAML formatting, key order, tool order, and ordering of category/tag/interface/source arrays do not select category labels.
+
+Missing labels are created using the default branch's trusted category taxonomy. Proposed categories absent from that taxonomy are skipped with a warning until merged. The workflows own the four area labels and the `category:` namespace: stale managed labels are removed, while labels outside that set are preserved. Avoid using the managed names for persistent manual labels. Existing repository labels' colors and descriptions are not overwritten.
+
+Each workflow also provides **Run workflow** with a required `pr` number. Select the default branch and supply an open PR number; other selected branches are skipped. This can process existing PRs individually, but there is no automatic backfill. Closed PRs are skipped.
+
+These workflows use `pull_request_target` and the repository's `GITHUB_TOKEN` with explicit permissions. Author assignment and review requests execute inline trusted workflow code without checkout or installation. The labeler checks out the default branch, disables checkout credentials, and installs existing production dependencies with lifecycle scripts disabled. Proposed files are read through the GitHub API strictly as YAML data; PR code is never checked out or executed. Actions are pinned to commit SHAs.
+
+All classification completes before any label write. Invalid YAML, duplicate tool slugs, invalid category fields, custom YAML tags, aliases, incomplete file lists, and API failures during classification fail visibly without changing labels. Unexpected write failures also fail visibly; a subsequent run reconciles any partial update. If the PR changes during classification, the run skips writes so a subsequent event or manual run can reconcile its current state. Labels are serialized per PR. The workflows do not enforce review requirements, change branch protection, or replace the existing validation and maintenance workflows.
