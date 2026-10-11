@@ -1,0 +1,51 @@
+name: Assign author
+
+on:
+  pull_request_target:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: Open PR number
+        required: true
+        type: string
+
+permissions: {}
+
+jobs:
+  assign:
+    # Manual runs must use the trusted default-branch workflow.
+    if: github.event_name != 'workflow_dispatch' || github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr }}
+        with:
+          script: |
+            const raw = process.env.PR_NUMBER;
+            if (!/^[1-9]\d*$/.test(raw) || !Number.isSafeInteger(Number(raw))) {
+              throw new Error('PR number must be a positive integer');
+            }
+            const { owner, repo } = context.repo;
+            const pull_number = Number(raw);
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number });
+            const author = pr.user;
+            if (pr.state !== 'open' || author.type !== 'User' ||
+                pr.assignees.some(user => user.login.toLowerCase() === author.login.toLowerCase())) return;
+            try {
+              await github.rest.issues.checkUserCanBeAssigned({ owner, repo, assignee: author.login });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              core.warning(`Author ${author.login} cannot be assigned to this repository`);
+              return;
+            }
+            const { data: assigned } = await github.rest.issues.addAssignees({
+              owner, repo, issue_number: pull_number, assignees: [author.login]
+            });
+            if (!assigned.assignees.some(user => user.login.toLowerCase() === author.login.toLowerCase())) {
+              core.warning(`GitHub did not assign author ${author.login}`);
+            }
