@@ -1,0 +1,50 @@
+name: PR labels
+
+# Read proposed files through the API as data. Only default-branch code executes.
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, edited, ready_for_review]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: Open PR number
+        required: true
+        type: string
+
+permissions: {}
+
+jobs:
+  label:
+    if: github.event_name != 'workflow_dispatch' || github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    concurrency:
+      group: pr-labels-${{ github.event.pull_request.number || inputs.pr }}
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pull-requests: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: 24
+      - name: Install trusted YAML parser
+        run: npm ci --ignore-scripts --omit=dev --no-audit --no-fund
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr }}
+        with:
+          script: |
+            const raw = process.env.PR_NUMBER;
+            if (!/^[1-9]\d*$/.test(raw) || !Number.isSafeInteger(Number(raw))) {
+              throw new Error('PR number must be a positive integer');
+            }
+            const { readFileSync } = require('node:fs');
+            const { reconcile } = require('./.github/scripts/pr-labels.cjs');
+            await reconcile({ github, context, core, pull_number: Number(raw),
+              taxonomy: readFileSync('data/categories.yml', 'utf8') });
