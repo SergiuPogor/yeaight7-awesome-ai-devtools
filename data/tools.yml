@@ -7128,6 +7128,33 @@
     - https://github.com/nuclia/nuclia-eval
     - https://pypi.org/project/nuclia-eval/
     - https://www.progress.com/blogs/llama-remi-v1-the-next-evolution-in-rag-evaluation
+- slug: oh-my-android
+  name: Oh My Android
+  description: macOS app with a stdio MCP server that lets AI agents control Android emulators and phones over adb, including screenshots, UI tree in dp, taps, and logcat.
+  website_url: https://royan.se/work/oh-my-android/
+  repo_url: https://github.com/ateymoori/oh-my-android
+  docs_url: https://github.com/ateymoori/oh-my-android#readme
+  categories:
+    - mcp-servers
+  tags:
+    - debugging
+    - desktop-app
+    - mcp
+    - model-context-protocol
+    - open-source
+    - testing
+  interfaces:
+    - desktop
+    - mcp
+  deployment: local
+  source_model: open-source
+  license: MIT
+  curation_status: reviewed
+  added: 2026-10-11
+  last_checked: 2026-10-11
+  sources:
+    - https://github.com/ateymoori/oh-my-android
+    - https://royan.se/work/oh-my-android/
 - slug: okahu
   name: Okahu
   description: AI observability platform and tools for debugging, testing, and monitoring agentic and LLM-based applications.

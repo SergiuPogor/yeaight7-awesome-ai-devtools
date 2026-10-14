@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 297 reviewed tools.
+This is the complete comparison matrix for all 298 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -200,6 +200,7 @@ This is the complete comparison matrix for all 297 reviewed tools.
 | [Nosia Installer Stack](https://get.nosia.ai) | Self-hosted AI dev stacks | Yes | Yes | Yes | Yes | No | No | [Website](https://get.nosia.ai) / [Docs](https://nosia.ai/readme/) |
 | [Noveum AI Agent Monitoring](https://noveum.ai/en/solutions/ai-agent-monitoring) | Agent observability | No | No | No | No | No | No | [Website](https://noveum.ai/en/solutions/ai-agent-monitoring) |
 | [nuclia-eval](https://pypi.org/project/nuclia-eval/) | Agent evals | Yes | Yes | No | No | No | No | [Website](https://pypi.org/project/nuclia-eval/) / [Repo](https://github.com/nuclia/nuclia-eval) |
+| [Oh My Android](https://royan.se/work/oh-my-android/) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://royan.se/work/oh-my-android/) / [Docs](https://github.com/ateymoori/oh-my-android#readme) / [Repo](https://github.com/ateymoori/oh-my-android) |
 | [Okahu](https://www.okahu.ai) | Agent observability | Yes | No | No | No | No | No | [Website](https://www.okahu.ai) / [Docs](https://docs.okahu.ai) / [Repo](https://github.com/okahu-demos) |
 | [Ollama](https://ollama.com) | Local LLM developer tools | Yes | Yes | Yes | Yes | No | No | [Website](https://ollama.com) / [Docs](https://docs.ollama.com) / [Repo](https://github.com/ollama/ollama) |
 | [Onyx](https://onyx.dotenv.dev) | Self-hosted AI dev stacks | Yes | Yes | Yes | No | No | Yes | [Website](https://onyx.dotenv.dev) / [Docs](https://github.com/onyx-dot-app/onyx#readme) / [Repo](https://github.com/onyx-dot-app/onyx) |
