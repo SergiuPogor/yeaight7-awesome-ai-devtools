@@ -2,7 +2,7 @@
 
 # Full Comparison Matrix
 
-This is the complete comparison matrix for all 298 reviewed tools.
+This is the complete comparison matrix for all 299 reviewed tools.
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -223,6 +223,7 @@ This is the complete comparison matrix for all 298 reviewed tools.
 | [Orbi](https://orbi.build/) | Coding agents | Yes | No | Yes | Yes | No | No | [Website](https://orbi.build/) / [Docs](https://docs.orbi.build/) / [Repo](https://github.com/orbi-build/orbi) |
 | [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Agent observability | Yes | Yes | No | Yes | No | Yes | [Repo](https://github.com/Continuum-AI-Corp/OrcaReplay) |
 | [Paddler](https://github.com/intentee/paddler#readme) | Self-hosted AI dev stacks | Yes | No | Yes | Yes | No | No | [Docs](https://github.com/intentee/paddler#readme) / [Repo](https://github.com/intentee/paddler) |
+| [PlaceCall](https://voygr.tech/placecall/) | MCP servers | No | No | No | No | No | Yes | [Website](https://voygr.tech/placecall/) / [Docs](https://api.voygr.tech/docs) / [Repo](https://github.com/voygr-tech/placecall) |
 | [Plandex](https://plandex.ai/) | Coding agents | Yes | Yes | No | Yes | No | No | [Website](https://plandex.ai/) / [Docs](https://docs.plandex.ai/quick-start) / [Repo](https://github.com/plandex-ai/plandex) |
 | [Playwright Code Runner](https://playwright.dev) | MCP servers | Yes | Yes | No | No | No | Yes | [Website](https://playwright.dev) / [Repo](https://github.com/exe-language/playwright-mcp) |
 | [Playwright MCP Server](https://playwright.dev/docs/getting-started-mcp) | MCP servers | Yes | Yes | No | No | No | Yes | [Docs](https://playwright.dev/docs/getting-started-mcp) / [Repo](https://github.com/microsoft/playwright-mcp) |
