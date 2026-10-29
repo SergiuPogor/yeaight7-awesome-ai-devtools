@@ -7958,6 +7958,34 @@
     - https://github.com/distantmagic/paddler
     - https://github.com/intentee/paddler
     - https://github.com/intentee/paddler#readme
+- slug: placecall
+  name: PlaceCall
+  description: Remote MCP server and REST API that let AI agents phone US businesses and return the call outcome and transcript.
+  website_url: https://voygr.tech/placecall/
+  repo_url: https://github.com/voygr-tech/placecall
+  docs_url: https://api.voygr.tech/docs
+  categories:
+    - mcp-servers
+  tags:
+    - agent-skills
+    - agents
+    - api
+    - mcp
+    - model-context-protocol
+    - tool-calling
+  interfaces:
+    - api
+    - mcp
+  deployment: hosted
+  source_model: proprietary
+  license: not specified
+  curation_status: reviewed
+  added: 2026-10-20
+  last_checked: 2026-10-20
+  sources:
+    - https://api.voygr.tech/docs
+    - https://github.com/voygr-tech/placecall
+    - https://voygr.tech/placecall/
 - slug: plandex
   name: Plandex
   description: Open-source terminal agent for long-running tasks across large projects and real repositories.

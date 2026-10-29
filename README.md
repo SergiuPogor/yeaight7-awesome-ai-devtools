@@ -8,7 +8,7 @@
 
 <p align="center">Window-shop coding agents, IDE assistants, MCP tooling, evals, observability, security, and self-hosted AI dev stacks.</p>
 
-<p align="center"><code>387 tools</code> <code>299 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
+<p align="center"><code>388 tools</code> <code>300 reviewed</code> <code>88 draft</code> <code>18 active reviewed shelves</code></p>
 
 ## Why this exists
 
@@ -74,7 +74,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ### Extend agents
 
-[MCP servers](#mcp-servers) (22) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
+[MCP servers](#mcp-servers) (23) · [MCP clients](#mcp-clients) (7) · [MCP tooling](#mcp-tooling) (19) · [Agent skill packs](#agent-skill-packs) (28)
 
 ### Operate agents
 
@@ -90,7 +90,7 @@ No rankings. No launch hype. Just a clean storefront for discovering tools worth
 
 ## Comparison Matrix
 
-_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 299 reviewed tools._
+_Showing a curated top 50 tools. See [docs/COMPARISON.md](docs/COMPARISON.md) for the full matrix of all 300 reviewed tools._
 
 | Tool | Main shelf | OSS | Local | Self-hosted | CLI | IDE | MCP | Links |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -298,6 +298,7 @@ Model Context Protocol servers that expose tools, resources, or prompts.
 | [MCP Bundles (MCPB)](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) | CLI tool for packaging local MCP servers into installable .mcpb files. | CLI · Local | [Docs](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills) / [Repo](https://github.com/modelcontextprotocol/mcpb) |
 | [Next.js DevTools MCP](https://github.com/vercel/next-devtools-mcp) | MCP server for exposing Next.js development tools and diagnostics to coding agents. | MCP · Local | [Repo](https://github.com/vercel/next-devtools-mcp) |
 | [Oh My Android](https://royan.se/work/oh-my-android/) | macOS app with a stdio MCP server that lets AI agents control Android emulators and phones over adb, including screenshots, UI tree in dp, taps, and logcat. | Desktop · MCP · Local | [Website](https://royan.se/work/oh-my-android/) / [Docs](https://github.com/ateymoori/oh-my-android#readme) / [Repo](https://github.com/ateymoori/oh-my-android) |
+| [PlaceCall](https://voygr.tech/placecall/) | Remote MCP server and REST API that let AI agents phone US businesses and return the call outcome and transcript. | API · MCP · Hosted | [Website](https://voygr.tech/placecall/) / [Docs](https://api.voygr.tech/docs) / [Repo](https://github.com/voygr-tech/placecall) |
 | [Playwright Code Runner](https://playwright.dev) | MCP-related tool for running Playwright code as part of browser automation workflows. | MCP · Local | [Website](https://playwright.dev) / [Repo](https://github.com/exe-language/playwright-mcp) |
 | [Playwright MCP Server](https://playwright.dev/docs/getting-started-mcp) | MCP server that uses Playwright to let AI agents interact with web pages through accessibility snapshots. | MCP · Local | [Docs](https://playwright.dev/docs/getting-started-mcp) / [Repo](https://github.com/microsoft/playwright-mcp) |
 | [SandBase CLI](https://github.com/sandbaseai/cli) | Local CLI and MCP bridge connecting 25 AI clients to 2,000+ models and APIs with OAuth onboarding, diagnostics, and rollback. | CLI · MCP · Local | [Docs](https://github.com/sandbaseai/cli#readme) / [Repo](https://github.com/sandbaseai/cli) |
@@ -657,13 +658,13 @@ Directories, curated lists, and registries of AI developer tools and resources.
 ## New Arrivals
 
 - 2026-10-28: [Agent Notifications](https://agent-notifications.com/)
+- 2026-10-20: [PlaceCall](https://voygr.tech/placecall/)
 - 2026-10-11: [Oh My Android](https://royan.se/work/oh-my-android/)
 - 2026-10-07: [mu](https://github.com/qybaihe/mu)
 - 2026-10-05: [cap-evolve](https://skillberry-ai.github.io/cap-evolve/)
 - 2026-10-05: [Context Guru](https://rossoctl.github.io/context-guru/)
 - 2026-10-05: [Orbi](https://orbi.build/)
 - 2026-10-03: [LogNorm](https://lognorm.com)
-- 2026-09-26: [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay)
 
 ## Needs review
 
