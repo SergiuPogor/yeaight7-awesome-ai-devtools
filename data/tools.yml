@@ -124,6 +124,36 @@
     - https://github.com/tristan666666/agent-island
     - https://github.com/tristan666666/agent-island/blob/main/LICENSE
     - https://github.com/tristan666666/agent-island/releases/tag/v2.1.2
+- slug: agent-notifications
+  name: Agent Notifications
+  description: Local notification plugin and MCP server that sends desktop attention and progress alerts from Claude Code and Codex workflows.
+  website_url: https://agent-notifications.com/
+  repo_url: https://github.com/777genius/agent-notifications
+  docs_url: https://github.com/777genius/agent-notifications/blob/main/docs/INSTALLATION.md
+  categories:
+    - mcp-servers
+  tags:
+    - agent-skills
+    - developer-experience
+    - local-first
+    - mcp
+    - open-source
+  interfaces:
+    - cli
+    - mcp
+    - skill-pack
+  deployment: local
+  source_model: open-source
+  license: GPL-3.0-or-later
+  curation_status: reviewed
+  added: 2026-10-28
+  last_checked: 2026-10-28
+  sources:
+    - https://github.com/777genius/agent-notifications
+    - https://github.com/777genius/agent-notifications/blob/main/docs/INSTALLATION.md
+    - https://github.com/777genius/agent-notifications/blob/main/LICENSE
+    - https://github.com/777genius/agent-notifications/blob/main/portable-package/mcp.json
+    - https://github.com/777genius/agent-notifications/blob/main/skills/agent-notifications/SKILL.md
 - slug: agent-powerups
   name: Agent Powerups
   description: Curated skill packs, commands, MCP configs, hooks, templates, and workflows for coding agents.
